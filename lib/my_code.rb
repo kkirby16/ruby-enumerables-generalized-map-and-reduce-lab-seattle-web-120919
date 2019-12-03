@@ -17,7 +17,7 @@ def reduce(array, starting_point=0)
    i = 1 #since we are already working with the first element so #we want to move on to the next element after above line was #executed
  end 
     #now want to loop over array so we can return the sum of these values.
-    while i < array.length
+    while i < array.length do 
   
 
 end 
