@@ -13,7 +13,7 @@ def reduce(array, starting_point=0)
  if starting_point #if there is a starting point
    num1 = starting_point  #will set num1 equal to that starting value 
    i = 0 #then add a counter that starts at first element in our array.
-  else 
+  else num1
     
   
 
