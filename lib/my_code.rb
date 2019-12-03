@@ -10,7 +10,7 @@ new
 end 
 
 def reduce(array, starting_point=0)
- 
+ if starting_point
     
   
 
