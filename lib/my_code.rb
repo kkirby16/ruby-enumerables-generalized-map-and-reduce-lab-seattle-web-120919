@@ -9,8 +9,7 @@ end
 new 
 end 
 
-map(array){|array| array[i] * -1}
- 
+
 
  
  
