@@ -18,6 +18,7 @@ def reduce(array, starting_point=0)
  end 
     #now want to loop over array so we can return the sum of these values.
     while i < array.length do 
+      
   
 
 end 
