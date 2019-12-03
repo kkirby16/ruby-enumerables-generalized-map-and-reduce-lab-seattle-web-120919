@@ -24,6 +24,7 @@ def reduce(array, starting_point=nil) #why did we use nil this #time instead of 
     sum
 end 
 
+#another question to ask on this one... why does our reduce method pass the true and false tests shown in the #terminal?
 
  
  
