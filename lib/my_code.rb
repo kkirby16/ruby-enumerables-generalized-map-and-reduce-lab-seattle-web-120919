@@ -10,7 +10,7 @@ new
 end 
 
 def reduce(array, starting_point=0)
-  total = 
+  total = 0 
   
 
 end 
