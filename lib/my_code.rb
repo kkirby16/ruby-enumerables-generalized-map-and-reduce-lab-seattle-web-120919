@@ -21,8 +21,7 @@ def reduce(array, starting_point=0)
       sum = yield(sum, array[i]) #pass each element to this block. #the #array elements will be added to num1. redefine sum #to equal the sum of the two numbers in the parenthesis
       i += 1 
     end 
-  
-
+    sum
 end 
 
 
