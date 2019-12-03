@@ -16,7 +16,7 @@ def reduce(array, starting_point=0)
   else sum = array[0] #if no starting value then our num1 will be #set to the first number in our array so 0 is the index #indicating we will be setting num1 equal to that first #element.
    i = 1 #since we are already working with the first element so #we want to move on to the next element after above line was #executed
  end 
-    #now want to loop over array so we can return the sum of these values.
+    #now want to loop over array so we can return the sum of these #values.
     while i < array.length do 
       sum = yield(sum, array[i]) #pass each element to this block. #the #array elements will be added to num1. redefine sum #to equal the sum of the two numbers in the parenthesis
       i += 1 
