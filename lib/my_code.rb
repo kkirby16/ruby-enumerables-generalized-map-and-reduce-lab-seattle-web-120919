@@ -9,7 +9,7 @@ end
 new 
 end 
 
-def reduce(array, starting_point=nil)
+def reduce(array, starting_point=nil) #why did we use nil this #time instead of 0 here??? ask this question.
  if starting_point #if there is a starting point
    sum = starting_point  #will set num1 equal to that starting #value 
    i = 0 #then add a counter that starts at first element in our #array.
