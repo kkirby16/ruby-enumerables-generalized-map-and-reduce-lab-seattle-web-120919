@@ -9,7 +9,7 @@ end
 new 
 end 
 
-def reduce(array, starting_point=0)
+def reduce(array, starting_point=nil)
  if starting_point #if there is a starting point
    sum = starting_point  #will set num1 equal to that starting #value 
    i = 0 #then add a counter that starts at first element in our #array.
