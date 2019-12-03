@@ -11,6 +11,7 @@ end
 
 def reduce(array, starting_point=0)
  if starting_point
+   num1 = starting_point
     
   
 
