@@ -18,7 +18,7 @@ def reduce(array, starting_point=0)
  end 
     #now want to loop over array so we can return the sum of these values.
     while i < array.length do 
-      yield(num1, array[i]) #pass each element to this block. the array elements will be added to num1. 
+      yield(num1, array[i]) #pass each element to this block. the #array elements will be added to num1. 
   
 
 end 
